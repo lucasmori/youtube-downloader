@@ -1,0 +1,23 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ytdl": "^1.1.0",
+    "ytdl-core": "^1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/core/server.js",
+    "dev": "nodemon ./src/core/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

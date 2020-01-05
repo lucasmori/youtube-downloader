@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Youtube Downloader</title>
+</head>
+
+<body>
+  <div class="title-container">
+    <h1 class="title">Youtube Downloader</h1>
+  </div>
+  <div class="message">
+    <p>by. Lucas Mori</p>
+  </div>
+  <form name="" action="http://localhost:8080/video" method="POST" class="form">
+    <input name="video" id="videoLink" class="field" type="text" placeholder="paste your video link here">
+    <div class="message">
+      <p>Select the format</p>
+    </div>
+    <select class="selector" name="format" id="type">
+      <option value="mp4">.mp4</option>
+      <option value="mp3">.mp3</option>
+    </select>
+    <input class="button" type=submit value='Download'></input>
+  </form>
+  
+</body>
+</html>
